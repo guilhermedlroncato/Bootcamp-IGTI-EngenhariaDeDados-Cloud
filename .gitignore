@@ -1,2 +1,5 @@
 /documentos-curso/*.pdf
 /modulo-01/documentos/*.pdf
+.env
+/modulo-01/pratica/dados
+*.pdf
