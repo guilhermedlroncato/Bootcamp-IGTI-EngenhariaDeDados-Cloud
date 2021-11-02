@@ -4,3 +4,9 @@
 /modulo-01/pratica/dados
 *.pdf
 *.csv
+/modulo-03/pratica/data/*.gz
+/modulo-03/pratica/data/title_basics
+/modulo-03/pratica/data/cnae.json
+/modulo-03/pratica/data/cnae.orc
+/modulo-03/pratica/data/cnae.parquet
+/modulo-03/trabalho-pratico/data/*.tsv
