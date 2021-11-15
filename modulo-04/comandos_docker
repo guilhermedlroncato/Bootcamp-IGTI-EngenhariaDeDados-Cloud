@@ -1,0 +1,30 @@
+- Comando para buscar uma imagem do docker hub
+docker search nginx
+
+- Comando para rodar um container
+docker run -p 80:80 --rm -d nginx
+--rm: destroy o container ao parar a execução
+-p: definição da porta externa e que será usada no container
+-d: execução em background
+
+- Comando para rodar um container em modo interativo
+docker run -it -p 80:80 --rm -d nginx
+-it: parametro para executar o container em modo interativo
+
+- Comando para verificar os container em execução
+docker container ps -a
+
+- Comando para apagar um container parado
+docker rm [nome_do_container]
+
+- Comando para parar a execução do container
+docker stop [nome_do_container]
+
+- Comando para listas a images baixada na maquina
+docker images
+
+- Comando para deletar uma imagem
+docker rmi [nome_imagem:nome_tag]
+
+- Comando para buildar uma imagem
+docker build -t roncato/api:python3.8 .

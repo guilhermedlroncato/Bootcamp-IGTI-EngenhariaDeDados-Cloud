@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: static-web
+  labels:
+    curso: edc
+spec:
+  containers:
+    - name: web
+      image: nginx
+      ports:
+        - name: webports
+          containerPort: 80
+          protocol: TCP

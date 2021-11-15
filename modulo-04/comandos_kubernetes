@@ -1,0 +1,23 @@
+- Comando para criar um cluster com kind
+kind create cluster
+
+- Comando para deletr o cluster kind
+kind delete cluster
+
+- Comando para criar um novo namespace 
+kubectl create namespace roncato-igti
+
+- Comando para consultar os namespaces
+kubectl get namespaces
+
+- Comando para consultar os pods
+kubectl get pods
+
+- Comando para criar um cluster EKS na AWS com EKSCTL
+eksctl create cluster --name k8sigtironcato --managed --instance-types=m5.large --spot --nodes-min=2 --nodes-max=4 --region=us-east-1 --alb-ingress-access --node-private-networking --full-ecr-access --nodegroup-name=ng-k8sroncatoigti --color=fabulous
+
+- Comando para deletar um cluster EKS na AWS com EKSCTL
+eksctl delete cluster --region us-east-1 --name k8sigtironcato
+
+- Comando para consultar os nodes
+kubetcl get nodes
