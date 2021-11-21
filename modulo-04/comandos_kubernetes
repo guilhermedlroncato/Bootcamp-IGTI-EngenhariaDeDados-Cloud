@@ -21,3 +21,9 @@ eksctl delete cluster --region us-east-1 --name k8sigtironcato
 
 - Comando para consultar os nodes
 kubetcl get nodes
+
+- Comando para realizar um deploy de um pod
+kubectl apply -f meupod/meupod.yaml -n meupod
+
+- Comando para deletar um pod
+kubectl delete pod static-web -n meupod
