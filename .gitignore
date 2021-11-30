@@ -11,3 +11,5 @@
 /modulo-03/pratica/data/cnae.parquet
 /modulo-03/trabalho-pratico/data/*.tsv
 /modulo-03/desafio/chave-gcp
+/desafio-final/data/*.CSV
+/desafio-final/data/*.txt
